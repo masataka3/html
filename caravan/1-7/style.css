@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:#6c6b6b;
+}
+a{
+	text-decoration: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+main{
+	width: 840px;
+	margin:50px auto;
+}
+.box-image{
+	height: 400px;
+	background-image:url(img/mv.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+.text{
+	padding:20px;
+	color:#acabab;
+}
+.box{
+	margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
